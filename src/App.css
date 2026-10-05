@@ -1,0 +1,44 @@
+body {
+  background-color: #1a1a2e;
+  color: white;
+  font-family: system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  max-width: 500px;
+  width: 100%;
+}
+
+textarea, input[type="text"] {
+  background-color: #2a2a3e;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+textarea::placeholder, input::placeholder {
+  color: #888;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #e11d48;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #be123c;
+}
